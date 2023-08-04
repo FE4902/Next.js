@@ -1,5 +1,5 @@
-import "./globals.css";
 import Link from "next/link";
+import "./globals.css";
 
 export const metadata = {
     title: "WEB tutorials",
@@ -32,7 +32,6 @@ export default function RootLayout({ children }) {
                     <li>
                         <input type="button" value="delete" />
                     </li>
-                    <li>ads</li>
                 </ul>
             </body>
         </html>
