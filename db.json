@@ -2,13 +2,13 @@
   "topics": [
     {
       "id": 1,
-      "title": "html",
-      "body": "html is ..."
+      "title": "HTML",
+      "body": "HTML is ..."
     },
     {
       "id": 2,
-      "title": "css",
-      "body": "css is ..."
+      "title": "CSS",
+      "body": "CSS is ..."
     }
   ],
   "posts": [

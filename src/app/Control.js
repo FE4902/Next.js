@@ -24,11 +24,16 @@ export default function Control() {
                             onClick={() => {
                                 const options = { method: "DELETE" };
                                 fetch(
-                                    "http://localhost:9999/topics/" + id,
+                                    process.env.NEXT_PUBLIC_API_URL +
+                                        "topics/" +
+                                        id,
                                     options
                                 )
                                     .then((resp) => resp.json())
-                                    .then((result) => router.push("/"));
+                                    .then((result) => {
+                                        router.push("/");
+                                        router.refresh();
+                                    });
                             }}
                         />
                     </li>
